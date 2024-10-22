@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "120526302085",
+    "project_id": "patienttracker-b2345",
+    "storage_bucket": "patienttracker-b2345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120526302085:android:f85cfa42267c5c021d72ec",
+        "android_client_info": {
+          "package_name": "com.example.asphire"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-i1kERskiDi82ziqggZN1LJLhElPVS28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:120526302085:android:ec397f6aa4f49f781d72ec",
+        "android_client_info": {
+          "package_name": "com.example.patienttracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-i1kERskiDi82ziqggZN1LJLhElPVS28"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

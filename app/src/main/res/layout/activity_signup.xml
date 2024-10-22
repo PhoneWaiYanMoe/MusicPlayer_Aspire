@@ -1,0 +1,96 @@
+<!-- res/layout/activity_signup.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@color/color_for_navi"> <!-- Dark background -->
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:src="@drawable/asphire_logo"
+        android:contentDescription="Asphire Logo"
+        android:layout_marginBottom="24dp" />
+
+    <!-- CardView to hold sign up form -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp"
+        app:cardElevation="8dp"
+        android:padding="24dp"
+        android:backgroundTint="#FFFFFF"> <!-- White background for card -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Email Field -->
+            <EditText
+                android:id="@+id/emailEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:backgroundTint="#E0E0E0"
+            android:drawableStart="@drawable/ic_email"
+            android:drawablePadding="10dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="16dp" />
+
+            <!-- Password Field -->
+            <EditText
+                android:id="@+id/passwordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:backgroundTint="#E0E0E0"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+            <!-- Confirm Password Field -->
+            <EditText
+                android:id="@+id/confirmPasswordEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:backgroundTint="#E0E0E0"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawablePadding="10dp"
+            android:textColor="#333333"
+            android:layout_marginBottom="24dp" />
+
+            <!-- Sign Up Button -->
+            <Button
+                android:id="@+id/signupButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Sign Up"
+                android:textColor="#FFFFFF"
+            android:backgroundTint="@color/song_bg"
+            android:layout_marginTop="16dp"
+            android:padding="16dp"
+            android:textStyle="bold"
+            android:elevation="4dp" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
